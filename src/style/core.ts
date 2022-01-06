@@ -36,6 +36,7 @@ const darkTheme = `
 const root = css`
   ${lightTheme}
   --rdg-selection-color: #66afe9;
+  --rdg-selection-color: transparent;
   --rdg-font-size: 14px;
 
   color-scheme: var(--rdg-color-scheme, light dark);
